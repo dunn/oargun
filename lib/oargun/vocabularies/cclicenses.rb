@@ -1,6 +1,6 @@
 require 'rdf'
 module Oargun::Vocabularies
-  class CCLICENSES < ::RDF::StrictVocabulary("http://creativecommons.org/licenses/")
+  class CCLICENSES < ::RDF::StrictVocabulary("https://creativecommons.org/licenses/")
 
     # Other terms
     property :"by-nc-nd/2.0/"
